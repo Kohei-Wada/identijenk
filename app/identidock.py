@@ -4,7 +4,6 @@ import hashlib
 import redis
 import html
 
-
 app = Flask(__name__) 
 salt = "UNIQUE_SALT"
 default_name = 'Kohei Wada'
